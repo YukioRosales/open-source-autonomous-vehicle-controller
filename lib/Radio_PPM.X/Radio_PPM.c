@@ -343,7 +343,7 @@ int main(void) {
     Serial_init();
     Radio_serial_init();
 
-    printf("\r\nRadio serial test harness %s, %s \r\n", __DATE__, __TIME__);
+    printf("\r\nRadio PPM test harness %s, %s \r\n", __DATE__, __TIME__);
     printf("System clock freq: %d (Hz)\r\n", Board_get_sys_clock());
     printf("Peripheral clock freq: %d (Hz)\r\n", Board_get_PB_clock());
     printf("Everything in Radio serial port window will be echoed here: \r\n");
